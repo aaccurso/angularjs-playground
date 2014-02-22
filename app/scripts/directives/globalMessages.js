@@ -8,13 +8,13 @@ angular.module('globalAlertsApp')
       link: function (scope, element, attrs) {
       	scope.alert = {};
 
-      	scope.dismiss = function (callback) {
-      		element.fadeOut('fast', callback);
+      	scope.dismiss = function (mode) {
+      		element.fadeOut( mode || 200 );
       	}
 
       	// Hide message on route change success
       	scope.$on( '$routeChangeSuccess', function () {
-      		scope.dismiss();
+      		scope.dismiss(100);
       	});
 
       	// Subscribe to eventAlert
