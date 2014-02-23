@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>AngularJS - Playground</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -27,9 +27,9 @@
     <nav>
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li class="active" when-active><a ng-href="#/">Home</a></li>
-          <li when-active><a ng-href="#/about">About</a></li>
-          <li when-active><a ng-href="#">Contact</a></li>
+          <li nav-element href="/" title="Home"></li>
+          <li nav-element href="/about" title="About"></li>
+          <li nav-element href="/contact" title="Contact"></li>
         </ul>
         <h3 class="text-muted">angular_playground</h3>
       </div>
@@ -72,7 +72,7 @@
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/services/eventService.js"></script>
         <script src="scripts/directives/globalMessages.js"></script>
-        <script src="scripts/directives/whenActive.js"></script>
+        <script src="scripts/directives/navElement.js"></script>
         <!-- endbuild -->
 </body>
 </html>

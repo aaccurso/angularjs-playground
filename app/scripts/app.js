@@ -16,7 +16,10 @@ angular.module('globalAlertsApp', [
       templateUrl: 'views/about.html',
       controller: 'AboutCtrl'
     })
+    .when('/notFound', {
+      templateUrl: '404.html'
+    })
     .otherwise({
-      redirectTo: '/'
+      redirectTo: '/notFound'
     });
 });

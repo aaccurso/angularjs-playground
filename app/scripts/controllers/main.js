@@ -12,15 +12,15 @@ angular.module('globalAlertsApp')
     	var alert = {
       		type: 'alert-info',
       		text: 'This is some informational alert.'
-      };
+      	};
     	eventService.publish('eventAlert', alert);
-    }
-    
+    };
+
     $scope.publishError = function () {
     	var alert = {
       		type: 'alert-danger',
       		text: 'This is some dangerous event alert.'
-      };
+      	};
       eventService.publish('eventAlert', alert);
-    }
+    };
   });

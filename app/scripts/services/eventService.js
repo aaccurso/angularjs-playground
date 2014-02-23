@@ -23,7 +23,7 @@ angular.module('globalAlertsApp')
         }
       }
     }
-    return null;
+    return;
   };
   eventService.publish = function(topic) {
     var callbackCount, event, res;
