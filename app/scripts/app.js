@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('globalAlertsApp', [
+angular.module('angularPlayground', [
   'ngCookies',
   'ngResource',
   'ngSanitize',

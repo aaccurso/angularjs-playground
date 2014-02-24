@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('globalAlertsApp')
+angular.module('angularPlayground')
   .controller('MainCtrl', function ($scope, $rootScope, eventService) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

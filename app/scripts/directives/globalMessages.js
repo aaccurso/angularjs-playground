@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('globalAlertsApp')
+angular.module('angularPlayground')
   .directive('globalMessages', function (eventService) {
     return {
       templateUrl: 'views/globalMessages.html',

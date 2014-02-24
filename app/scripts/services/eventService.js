@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('globalAlertsApp')
+angular.module('angularPlayground')
   .factory('eventService', function () {
   var cache = {}, eventService = {};
 
