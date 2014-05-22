@@ -4,7 +4,8 @@ angular.module('angularPlayground', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'checklist-model'
 ])
 .config(function ($routeProvider) {
   $routeProvider
@@ -15,6 +16,10 @@ angular.module('angularPlayground', [
     .when('/about', {
       templateUrl: 'views/about.html',
       controller: 'AboutCtrl'
+    })
+    .when('/checklist', {
+      templateUrl: 'views/checklist.html',
+      controller: 'ChecklistCtrl'
     })
     .when('/notFound', {
       templateUrl: '404.html'

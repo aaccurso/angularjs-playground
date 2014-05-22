@@ -1,7 +1,6 @@
 {
   "name": "globalalerts",
   "version": "0.0.0",
-  "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.4.0",
@@ -40,7 +39,7 @@
     "karma-coffee-preprocessor": "^0.1.3",
     "karma-phantomjs-launcher": "^0.1.2",
     "karma": "^0.10.9",
-    "karma-ng-html2js-preprocessor": "^0.1.0",
+    "karma-ng-html2js-preprocessor": "^0.1.0"
   },
   "engines": {
     "node": ">=0.8.0"
